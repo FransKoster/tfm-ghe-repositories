@@ -48,6 +48,7 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_github_base_url"></a> [github\_base\_url](#input\_github\_base\_url) | Base URL for GitHub Enterprise instance | `string` | `"https://prorail.ghe.com/"` | no |
 | <a name="input_github_organization"></a> [github\_organization](#input\_github\_organization) | GitHub organization name | `string` | n/a | yes |
 
 ## Outputs
