@@ -36,13 +36,14 @@ The example creates:
 ```bash
 terraform destroy
 ```
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.6.0 |
-| <a name="requirement_github"></a> [github](#requirement\_github) | >= 6.0.0 |
+| <a name="requirement_github"></a> [github](#requirement\_github) | 6.8.3 |
 
 ## Providers
 
@@ -64,6 +65,7 @@ No resources.
 |------|-------------|------|---------|:--------:|
 | <a name="input_api_key"></a> [api\_key](#input\_api\_key) | API key for application | `string` | n/a | yes |
 | <a name="input_deploy_key"></a> [deploy\_key](#input\_deploy\_key) | SSH public key for deployment | `string` | n/a | yes |
+| <a name="input_github_base_url"></a> [github\_base\_url](#input\_github\_base\_url) | Base URL for GitHub Enterprise instance | `string` | `"https://company.ghe.com/"` | no |
 | <a name="input_github_organization"></a> [github\_organization](#input\_github\_organization) | GitHub organization name | `string` | n/a | yes |
 | <a name="input_webhook_secret"></a> [webhook\_secret](#input\_webhook\_secret) | Secret for webhook authentication | `string` | n/a | yes |
 

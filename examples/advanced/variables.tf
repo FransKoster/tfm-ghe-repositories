@@ -3,6 +3,12 @@ variable "github_organization" {
   description = "GitHub organization name"
 }
 
+variable "github_base_url" {
+  type        = string
+  description = "Base URL for GitHub Enterprise instance"
+  default     = "https://company.ghe.com/"
+}
+
 variable "webhook_secret" {
   type        = string
   description = "Secret for webhook authentication"

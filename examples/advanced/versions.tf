@@ -4,11 +4,12 @@ terraform {
   required_providers {
     github = {
       source  = "integrations/github"
-      version = ">= 6.0.0"
+      version = "6.8.3"
     }
   }
 }
 
 provider "github" {
-  owner = var.github_organization
+  owner    = var.github_organization
+  base_url = var.github_base_url
 }
