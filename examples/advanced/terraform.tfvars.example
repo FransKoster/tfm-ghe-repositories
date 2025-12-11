@@ -1,0 +1,8 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and fill in your values
+
+github_organization = "your-org-name"
+
+webhook_secret = "your-webhook-secret-here"
+deploy_key     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC... your-public-key-here"
+api_key        = "your-api-key-here"
