@@ -16,11 +16,17 @@ module "repositories" {
       auto_init              = true
       gitignore_template     = "Terraform"
       license_template       = "mit"
+      # Team access
+      teams = {
+        "test-team1" = {
+          permission = "maintain"
+        }
+      }
     }
 
     my-docs = {
       description = "Documentation repository"
-      visibility  = "public"
+      visibility  = "private"
 
       has_issues = true
       has_wiki   = true
