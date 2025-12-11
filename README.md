@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 post_title: "GitHub Enterprise Repositories Terraform Module"
 author1: "FKoster"
